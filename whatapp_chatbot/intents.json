@@ -1,0 +1,49 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+    "responses": ["Hello, Welcome to Whatsapp ChatBot", "Hi, Welcome to Whatsapp ChatBot", "Hi there, Welcome to Whatsapp ChatBot"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+    "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+    "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "encumbrance",
+    "patterns": ["encumbrance", "encumbrance certificate","encumbrance certification","property certification","property certificate","what is encumbrance certificate", "what is property certificate", "what is ownership history of the location", "ownership history"],
+    "responses": ["Encumbrance certificate certifies that there are no dues on the property, and the ownership of the property is clear and marketable. Encumbrance certificate contains details of all transactions done on the specific property. In Telangana, the Department of Registration issues encumbrance certificate."]
+    },
+    {"tag": "apply encumbrance",
+    "patterns": ["how to apply encumbrance cerificate", "how to apply encumbrance cerificate in this location", "how to apply encumbrance cerificate for this location", "can you apply encumbrance certificate for this property","can you apply encumbrance certificate for this location","apply encumbrance certificate","can you apply encumbrance certificate in this property","can you apply encumbrance certificate in this location", "can I apply encumbrance certificate for this property", "can i apply encumbrance certificate for this location"],
+    "responses": ["You are asking for encumbrance information, Please share the location of the property"]
+    },
+    
+    {"tag": "address",
+    "patterns": ["what is address of this location","can you tell me what is the address of this location", "get the address of this location", "can you tell me address of the location","I need address of the location","need address of the location","location of the address","address location"],
+    "responses": ["Please send the location as an attachment"]
+    },
+
+    {"tag": "owner",
+    "patterns": ["who owns this property", "who is the property owner for this location", "who is the house owner for this location", "who is the building owner for this location", "who is the house owner for this property", "who is the building owner for this property","who owns this location", "can you tell me the owner of this property", "property owner", "house owner", "building owner","owner"],
+    "responses": ["You are asking for owner's information, Please share the location of the property"]
+    },
+    {"tag": "market",
+    "patterns": ["what is market value of the property", "what is the market value of location", "can you tell me the market value of property", "can you tell me the market value of the location", "market value"],
+    "responses": ["You are asking for the market information, Please share the location of the property"]
+    }
+]
+}
